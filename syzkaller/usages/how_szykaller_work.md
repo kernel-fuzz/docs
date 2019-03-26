@@ -16,7 +16,7 @@ date : 2019-03-25
 
 syzkaller系统的过程结构如下图所示; 红色标签表示相应的配置选项。
 
-![process_structure](../images/process_structure.png)
+![process_structure](./images/process_structure.png)
 
 `syz-manager` 进程负责几个VM示例的运行(process starts)，监控(monitors)和重启(restarts)工作.同时会在VM实例中运行`sys-fuzzer`进程。`syz-manager`会维持语料库并且完成崩溃转储(crash storage)工作.与`syzkaller`进程不同的是，`syz-manger`模块运行在稳定的内核上不会被白噪音(white-noise) fuzzer加载。
 
