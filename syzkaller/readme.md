@@ -1,6 +1,6 @@
 # Syzkaller
 
-> google开源的fuzz神奇syzkaller的安装教程
+> google开源的fuzz工具syzkaller的安装教程
 
 # 前言
 
